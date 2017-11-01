@@ -1,0 +1,24 @@
+.header{
+	width:100%;
+}
+.header .header1{
+	background-color: black;
+}
+	.header .header1 .logo {
+		width:100px;
+		height:40px;
+		float:left;
+	}
+		.header .header1 .logo a{
+			width:100px;
+			height:40px;
+			float:left;
+		}
+	.header .header1 .list {
+		text-decoration: none;
+		float:left;
+	}
+	.header .header1 .list ul{
+		text-decoration: none;
+		float:left;
+	}
