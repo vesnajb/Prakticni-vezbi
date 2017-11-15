@@ -1,0 +1,122 @@
+body{
+	padding:0;
+	margin:20px;
+	font-family: sans-serif;
+	background-color: grey;
+}
+.main{
+	width:370px;
+	height:252px;
+	background-color:white;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.main .top{
+	width:370px;
+	height:125px;
+	padding:20px 30px 30px 30px;
+}
+.main .top .left{
+	width:130px;
+	height:125px;
+	float:left;
+}
+.main .top .left .wrap{
+	width:110px;
+	height:110px;
+	border-radius: 50%;
+	overflow: hidden;
+
+}
+.main .top .left img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	
+}
+.main .top .right{
+	width:240px;
+	height:125px;
+	float:left;
+}
+.main .top .right ul{
+	padding:0;
+	margin:0;
+}
+.main .top .right ul li{
+	list-style: none;
+	padding:5px 5px 5px 0;
+}
+.main .top .right ul h3{
+	margin:0;
+	font-size:20px;
+	color:grey;
+}
+.main .top .right ul span{
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	background-color: black;
+	display:inline-block;
+	margin-right:5px;
+	text-align: center;
+}
+.main .top .right ul i{
+	color:white;
+	font-size:12px;
+	line-height: 20px;
+}
+.main .top .right ul .name{
+	font-size:14px;
+}
+.main .top .right ul li a{
+	text-decoration: none;
+	color:black;
+	font-size:14px;
+}
+.main .bottom{
+	width:100%;
+	height:87px;
+	background-color: black;
+	border-radius: 0 0 5px 5px;
+}
+.main .bottom .first{
+	width:33%;
+	height: 100%;
+	float:left;
+	color: white;
+}
+.main .bottom .first ul{
+
+}
+.main .bottom .first li{
+	list-style: none;
+}
+.main .bottom .first li:first-child{
+	font-size: 20px;
+}
+.main .bottom .second{
+	width:33%;
+	height: 100%;
+	float:left;
+	color: white;
+	background-color: #278e0b;
+}
+.main .bottom .second li{
+	list-style: none;
+}
+.main .bottom .second li:first-child{
+	font-size: 20px;
+}
+.main .bottom .third{
+	width:33%;
+	height: 100%;
+	float:left;
+	color: white;
+}
+.main .bottom .third li{
+	list-style: none;
+}
+.main .bottom .third li:first-child{
+	font-size:20px;
+}
