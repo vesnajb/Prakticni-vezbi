@@ -1,0 +1,117 @@
+body{
+	margin: 220px;
+	background: #dfdedc;
+	font-family: sans-serif;
+}
+.block{
+	width: 370px;
+	display: inline-block;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+}
+.block_top{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	background: #f8f8f8;
+	float: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.block_top_left{
+    float: left;
+    width: 111px;
+    box-sizing: border-box;
+    padding: 15px 0px 0px 0px;
+}
+.img_holder{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.img_holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.block_top_right{
+	float: left;
+    width: calc(100% - 111px);
+    box-sizing: border-box;
+    padding: 0px 0px 0px 30px;
+}
+.block_top_right h2 {
+    font-size: 17px;
+    margin: 0px 0px 20px 0px;
+}
+.single_item{
+	float: left;
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+}
+.single_item span{
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	border-radius: 50%;
+	background: #323232;
+	float: left;
+}
+.single_item span i{
+    color: #fff;
+    font-size: 10px;
+    margin: 7px 0px 0px 0px;
+}
+.single_item h4{
+	float: left;
+	margin: 4px 0px 0px 10px;
+	color: #7a7a7a;
+	font-weight: normal;
+	font-size: 14px;
+}
+.block_bottom {
+    float: left;
+    width: 100%;
+}
+.single_info{
+	float: left;
+	width: calc(100% / 3);
+	background: #2f2e2c;
+	height: 87px;
+	display: table;
+	text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.single_info:first-of-type{
+	border-bottom-left-radius: 5px;
+}
+.single_info:last-of-type{
+	border-bottom-right-radius: 5px;
+}
+.single_info:hover span{
+	color: #fff;
+}
+.single_info:hover{
+	background: #6cab36;
+}
+.single_info h2{
+	color: #fff;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.single_info span{
+	color: #a7a6a4;
+	font-size: 12px;
+}
+.si_holder {
+    display: table-cell;
+    vertical-align: middle;
+}
