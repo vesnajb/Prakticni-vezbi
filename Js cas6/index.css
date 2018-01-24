@@ -1,0 +1,38 @@
+body{
+	padding: 0;
+	margin: 20px;
+	font-family: sans-serif;
+	background-color: lightblue;
+	box-sizing: border-box;
+	height:100%;
+	overflow:hidden;
+}
+.slider{
+	width:600px;
+	height:300px;
+	overflow: hidden;
+}
+	.slider
+#wrapper{
+	width:300px;
+	background-color: lightgrey;
+	box-sizing: border-box;
+	transform:translateX();
+	transition:all 0.2s ease-in-out;
+}
+header{
+	background-color: lightgrey;
+	display:inline-block;
+	box-sizing: border-box;
+	padding:20px;
+	height:100%;
+	transform:translateX();
+}
+
+.wrapper button{
+	font-size: 20px;
+}
+
+.show_menu #wrapper{
+	transform:translateX(80px);
+}
